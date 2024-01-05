@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { Form, Row, Button } from "react-bootstrap";
 import Select from "react-select";
 import { FaPlus, FaTrash } from "react-icons/fa";
+
 const FormOrder = (props) => {
   const {
     input,
