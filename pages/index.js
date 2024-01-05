@@ -18,7 +18,6 @@ const Home = (props) => {
     );
 };
 
-// push
 export async function getServerSideProps(context) {
   const session = await getSession({ req: context.req });
 
