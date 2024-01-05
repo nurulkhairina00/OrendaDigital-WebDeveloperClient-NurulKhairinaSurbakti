@@ -1,4 +1,3 @@
-/* eslint-disable react-hooks/exhaustive-deps */
 import { getSession } from "next-auth/react";
 import Head from "next/head";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -19,6 +18,7 @@ const Home = (props) => {
     );
 };
 
+// push
 export async function getServerSideProps(context) {
   const session = await getSession({ req: context.req });
 
