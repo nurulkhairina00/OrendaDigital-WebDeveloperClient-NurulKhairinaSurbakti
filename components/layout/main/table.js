@@ -116,9 +116,10 @@ export default function Table({ columns, data }) {
                   backgroundColor: "#fffab8",
                 }}
                 {...row.getRowProps()}
+                key={i}
               >
-                {row.cells.map((cell) => {
-                  return <td>{cell.render("Cell")}</td>;
+                {row.cells.map((cell, i) => {
+                  return <td key={i}>{cell.render("Cell")}</td>;
                 })}
               </tr>
             );

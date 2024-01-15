@@ -42,7 +42,7 @@ const Login = () => {
         });
       }
     }
-    router.push("/customer");
+    router.push("/");
   };
 
   return (

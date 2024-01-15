@@ -63,7 +63,7 @@ const Index = (props) => {
           title={<span>&#x2630;</span>}
           variant="danger"
         >
-          <Link href={`/product/${item.id}`} passHref>
+          <Link href={`/product/${item.id}`}>
             <Dropdown.Item as="a">
               <FaEdit /> <span className="ms-2">Edit</span>
             </Dropdown.Item>
